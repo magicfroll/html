@@ -1,0 +1,135 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: 'Raleway', sans-serif;
+    }
+
+    .center {
+        padding-left: calc(50% - 580px);
+        padding-right: calc(50% - 580px);
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .header {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background: #2F2E41;
+        display: flex;
+        gap: 32px;
+    }
+
+    .header__link {
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FFF;
+    }
+
+    .top {
+        padding-top: 84px;
+        padding-bottom: 84px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 22px;
+    }
+
+    .title {
+        color: #6C63FF;
+        font-size: 96px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        width: 578px;
+    }    
+
+    .about {
+        background: rgba(242, 242, 242, 0.34);
+        padding-top: 64px;
+        padding-bottom: 149px;
+    }
+
+    .heading {
+        color: #6C63FF;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 80px;
+    }
+
+    .about__content {        
+        margin-top: 50px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row;
+    }
+
+    .about__text {
+        width: 462px;
+        color: #7D7987;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 30px;
+    }
+
+    .skills {
+        padding-top: 64px;
+        padding-bottom: 125px;
+    }
+
+    .skills__content {
+        margin-top: 91px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 48px;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .contacts {
+        padding-top: 84px;
+        padding-bottom: 84px;
+    }
+
+    .contacts__info {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-top: 32px;
+    }
+    
+    .email {
+        color: #000;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 48px;
+    }
+
+    .footer {
+        padding-top: 29px;
+        padding-bottom: 29px;
+        background: #2F2E41;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+        gap: 48px;
+    }
