@@ -1,0 +1,22 @@
+.header {
+    width: 96vw;
+    height: 30vh;
+    border: 1px solid black;
+}
+
+.content {
+    display: flex;
+    
+}
+
+.item {
+    width: 33.333333vw;
+    height: 50vh;
+    border: 1px solid black;
+}
+
+@media (max-width: 1024px) {
+    .item {
+        width: 50vw;
+    }
+}
