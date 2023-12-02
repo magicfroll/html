@@ -193,7 +193,45 @@
 @media (max-width: 1024px) and (min-width: 768px) {
     .f_item {
         width: 49%;
-        /* gap: 2%; */
-        /* margin-right: 2%; */
+
+    }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+    .img-flex {
+        min-height: 275px;
+    }
+
+    .img-left-box {
+        width: 0%;
+        min-width: 0;
+    }
+
+    .img-right-box {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .person {
+        width: 0%;
+    }
+
+    .brand {
+        width: 100%;
+    }
+    
+    .f_item {
+        width: 100%;
+
+    }
+
+    .sm__img {
+        width: 100%;        
+    }
+
+    .big__img {
+        transform: translate(-34%, -4%);
+        width: 350%;
     }
 }
