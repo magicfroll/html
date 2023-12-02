@@ -1,13 +1,9 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-.top {
+  }
+  
+.container {
     max-width: 1600px;
     margin: 0 auto;
 }
@@ -23,22 +19,48 @@ a {
     display: flex;
     justify-content: space-between;
     background: #222;
+}  
+  
+.img-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F1E4E6;
+    
+}
+  
+.person {
+    width: 100%;
 }
 
-.main {
-    padding-left: calc(50% - 800px);
-    padding-right: calc(50% - 800px);
-    background: #F1E4E6; 
+.brand {
+    width: 60%;
+}
+  
+.img-left-box {
+    min-width: 50%;
+}
+
+.img-right-box {
+    width: 50%;
     display: flex;
-    align-items: center;
 }
 
 .categories {
     padding-top: 65px;
     padding-bottom: 96px;
-    display: grid;
-    grid-template-columns: repeat(3, 360px);
-    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
+}
+
+.sm__img {
+    width: 32%;
+    margin-bottom: 2%;
+}
+
+.big__img {
+    width: 100%;
 }
 
 .title {
@@ -67,24 +89,62 @@ a {
     align-items: center;
 }
 
+
+.product-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  
+  .product {
+    width: 32%;
+    min-height: 350px;
+    background-color: brown;
+    margin-bottom: 3%;
+  }
+
+
+
+
+
+
+
+
+
 .fetured__items {
     margin-top: 47px;
     margin-bottom: 48px;
-    display: grid;
-    grid-template-columns: repeat(3, 360px);
-    gap: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;    
 }
 
 .f_item {
     background: #F8F8F8;
+    width: 32%;
+    margin-bottom: 2%;
+}
+
+.f_ite__img {
+    width: 100%;
+}
+
+.f_flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #F7E4E2;
 }
 
 .f_content {
-    padding-top: 9px;
-    padding-right: 110px;
-    padding-bottom: 11px;
-    padding-left: 108px;
-    background: #F7E4E2;;
+    padding-top: 9px;    
+    width: 40.5%;    
+    align-content: center;
 }
 
 .dsc {
@@ -130,3 +190,10 @@ a {
     margin-bottom: 60px;
 }
 
+@media (max-width: 1024px) and (min-width: 768px) {
+    .f_item {
+        width: 49%;
+        /* gap: 2%; */
+        /* margin-right: 2%; */
+    }
+}
