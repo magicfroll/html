@@ -1,0 +1,21 @@
+/* замена встроенного класса bootstrap и создание своего стиля  */
+
+.bg-nav {
+    background-color: aqua;
+}
+
+
+.text-color {
+    color: red;
+}
+
+.center {
+    padding-left: calc(50% - 600px);
+    padding-right: calc(50% - 600px);
+}
+
+.product-box {
+    gap: 32px;
+    flex-wrap: wrap;
+}
+

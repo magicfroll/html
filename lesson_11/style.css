@@ -1,7 +1,6 @@
 * {
     margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    padding: 0;   
     outline: none;
 }
 
@@ -15,9 +14,13 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.header {
+    margin-bottom: 160px;
+}
+
 .container {
     margin: 0 auto;
-    /* width: 1147px; */
+    width: 1147px;
 }
 
 .flex {
@@ -49,10 +52,6 @@ body {
 
 .header-link:active {
     transform: scale(1.2);
-}
-
-.header {
-    margin-bottom: 160px;
 }
 
 .subtitle {
